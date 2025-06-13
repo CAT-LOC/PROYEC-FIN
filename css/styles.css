@@ -1,0 +1,115 @@
+.Cartas {
+    margin: 2% 0 4% 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+    
+.card {
+    margin: 5px;
+    
+}
+
+.moda-brand {
+    text-decoration: none;
+    font-family: cursive;
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 28px;
+    margin: 0;
+
+}
+
+.nav-item {
+    font-size: 26px;
+    text-align: center;
+}
+
+.boton {
+    background-color: #DC3545;
+    color: white;
+    padding: 6px 15px 9px 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: #c82333;
+    color: white;
+}
+.product-1 {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-info {
+    margin: 20px;
+}
+
+.quantyti {
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+}
+
+.Prod {
+    margin: 5px;
+    text-align: center;
+}
+
+.comps  {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    margin: 13px;
+}
+
+.basic {
+    padding: 6px;
+    width: 70rem;
+}
+
+.end {
+    text-align: right;
+}
+
+footer {
+    background-color: rgb(245, 244, 243);
+    padding: 1rem 2rem;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+
+.container {
+    min-height: 10vh;
+    display: grid;
+
+}
+
+.copyrath {
+    background-color: rgb(245, 244, 243);
+    padding: 0rem 2rem;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.precioo {
+    font-size: 19px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pags {
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
